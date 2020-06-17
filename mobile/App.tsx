@@ -1,19 +1,26 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'react-native';
+import { AppLoading } from 'expo'
+import { OdibeeSans_400Regular } from '@expo-google-fonts/odibee-sans';
+import { PressStart2P_400Regular, useFonts } from '@expo-google-fonts/press-start-2p';
+
+import Tuner from './src/tuner';
 
 export default function App() {
+  const [fontsLoader] = useFonts({
+    PressStart2P_400Regular,
+    OdibeeSans_400Regular,
+  })
+  
+  if (!fontsLoader) {
+    return <AppLoading />
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <>
+      <StatusBar translucent backgroundColor='#251605' />
+      <Tuner />
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

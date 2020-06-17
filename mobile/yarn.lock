@@ -943,6 +943,21 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@expo-google-fonts/inter@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.1.0.tgz#399f068437824fcbf6aa3da5fcf490dba2af85a3"
+  integrity sha512-Y6GCqsUX6JwexQ2wmBkMiJBY6M2GpNQRTczzIGbBGhXWQxqGmP5awRcf0ZJV+OlLeJcKAzas/TW45ZLdpG3yzA==
+
+"@expo-google-fonts/odibee-sans@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/odibee-sans/-/odibee-sans-0.1.0.tgz#a609341bed42dd9701af443a914061f3e2934bb9"
+  integrity sha512-Kz2VrCantzl/Qgp21fnsAy4ykJRK9FEP35qtwy8pl+T3YpfmVO77A4V5/HBmyo+otyh6nTo0+1IinZ+L7+HdXg==
+
+"@expo-google-fonts/press-start-2p@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/press-start-2p/-/press-start-2p-0.1.0.tgz#8413e9bc1c6c7f04b743b517ab6a4743124699bf"
+  integrity sha512-tiCXHFnLPtE8LljCEkjQB6p92GPT5rAEcf6qPVIsV2tJbrN4r2kdTEM+Lkhmtn/COuyikCbGkiJKOGS/o1/nWQ==
+
 "@expo/vector-icons@^10.0.2":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.2.0.tgz#3c70656683a6a873e18efc00bc61fc160a80dc55"
