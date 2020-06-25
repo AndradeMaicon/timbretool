@@ -6,9 +6,10 @@ export const Button = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    position: 'relative',
+    // position: 'relative',
     justifyContent: 'space-between',
-    width: '100%'
+    width: '100%',
+    paddingHorizontal: 8,
   },
 
   button: {
@@ -16,19 +17,18 @@ export const Button = StyleSheet.create({
     backgroundColor: '#F1AB86',
     height: 50,
     width: 50,
-    borderRadius: 70,
+    borderRadius: 100,
     paddingTop: 10,
     marginRight: 10,
     justifyContent:"center",
     alignItems: "center",
 
-    paddingHorizontal: 25,
   },
 
   notes : {
     fontFamily: 'RobotoCondensed_400Regular',
     color: '#251605',
-    fontSize: 30,
+    fontSize: 25,
     position: 'absolute',
   }
 })

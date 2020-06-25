@@ -7,7 +7,9 @@ export const NoteStyle = StyleSheet.create({
     fontFamily: 'RobotoCondensed_700Bold',
     fontSize: 280,
 
-    color: '#F0FFCE',
+    flex: 3,
+
+    color: '#F1AB86',
     // marginTop: 30,
     // marginBottom: 30
   }

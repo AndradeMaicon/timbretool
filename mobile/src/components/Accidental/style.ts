@@ -11,7 +11,8 @@ export const Accidental = StyleSheet.create({
     paddingHorizontal: 30,
     paddingTop: 10,
     marginRight: 8,
-    width: '100%'
+    width: '100%',
+    flex:1
   },
 
   SubContainer: {
