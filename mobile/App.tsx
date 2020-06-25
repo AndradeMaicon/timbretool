@@ -1,15 +1,14 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { AppLoading } from 'expo'
-import { OdibeeSans_400Regular } from '@expo-google-fonts/odibee-sans';
-import { PressStart2P_400Regular, useFonts } from '@expo-google-fonts/press-start-2p';
+import {RobotoCondensed_400Regular, RobotoCondensed_700Bold, useFonts } from '@expo-google-fonts/roboto-condensed';
 
-import Tuner from './src/tuner';
+import Layout from './src/Layout';
 
 export default function App() {
   const [fontsLoader] = useFonts({
-    PressStart2P_400Regular,
-    OdibeeSans_400Regular,
+    RobotoCondensed_400Regular,
+    RobotoCondensed_700Bold,
   })
   
   if (!fontsLoader) {
@@ -19,7 +18,7 @@ export default function App() {
   return (
     <>
       <StatusBar translucent backgroundColor='#251605' />
-      <Tuner />
+      <Layout />
     </>
   );
 }

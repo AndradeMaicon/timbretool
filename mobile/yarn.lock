@@ -958,6 +958,11 @@
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/press-start-2p/-/press-start-2p-0.1.0.tgz#8413e9bc1c6c7f04b743b517ab6a4743124699bf"
   integrity sha512-tiCXHFnLPtE8LljCEkjQB6p92GPT5rAEcf6qPVIsV2tJbrN4r2kdTEM+Lkhmtn/COuyikCbGkiJKOGS/o1/nWQ==
 
+"@expo-google-fonts/roboto-condensed@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/roboto-condensed/-/roboto-condensed-0.1.0.tgz#09e2aad0f5c03e53ae871a4857486da3e0daee62"
+  integrity sha512-gF0O9nb+B1iNNb2u83Qn67g2Sw2A4KqXhoZmNV4+nOFGFcPJ86IbbvaJQ61DvcE9/QdV61DH0FeJKvLmaRi9jA==
+
 "@expo/vector-icons@^10.0.2":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.2.0.tgz#3c70656683a6a873e18efc00bc61fc160a80dc55"
