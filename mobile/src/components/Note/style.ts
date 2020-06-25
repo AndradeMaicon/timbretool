@@ -4,8 +4,8 @@ import { StyleSheet } from 'react-native';
 
 export const NoteStyle = StyleSheet.create({
   note: {
+    fontFamily: 'RobotoCondensed_700Bold',
     fontSize: 280,
-    fontWeight: '700',
 
     color: '#F0FFCE',
     marginTop: 30,

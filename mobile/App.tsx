@@ -3,7 +3,7 @@ import { StatusBar } from 'react-native';
 import { AppLoading } from 'expo'
 import {RobotoCondensed_400Regular, RobotoCondensed_700Bold, useFonts } from '@expo-google-fonts/roboto-condensed';
 
-import Layout from './src/Layout';
+import Layout from './src/components/Layout';
 
 export default function App() {
   const [fontsLoader] = useFonts({
