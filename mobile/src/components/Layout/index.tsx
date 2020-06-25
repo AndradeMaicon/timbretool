@@ -6,6 +6,7 @@ import { BaseLayout } from './styles';
 import Header from '../Header';
 import Note from '../Note';
 import Accidental from '../Accidental';
+import Buttons from '../Buttons'
 
 export default function Layout(){
   return (
@@ -13,6 +14,7 @@ export default function Layout(){
       <Header />
       <Note />
       <Accidental />
+      <Buttons />
     </View>
   )
 }

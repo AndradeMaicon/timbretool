@@ -8,8 +8,8 @@ export const NoteStyle = StyleSheet.create({
     fontSize: 280,
 
     color: '#F0FFCE',
-    marginTop: 30,
-    marginBottom: 30
+    // marginTop: 30,
+    // marginBottom: 30
   }
 
 })

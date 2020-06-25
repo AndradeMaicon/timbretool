@@ -1,11 +1,10 @@
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import Hashtag from 'react-native-vector-icons/MaterialIcons';
 
 import { Accidental } from './style';
 
-export default function Note(){
+export default function Accidents(){
   return(
     <>
       <View style={Accidental.Container} >
