@@ -10,8 +10,6 @@ export const NoteStyle = StyleSheet.create({
     flex: 3,
 
     color: '#F1AB86',
-    // marginTop: 30,
-    // marginBottom: 30
   }
 
 })

@@ -22,7 +22,6 @@ export const Button = StyleSheet.create({
     marginRight: 10,
     justifyContent:"center",
     alignItems: "center",
-
   },
 
   notes : {
