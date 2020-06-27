@@ -31,3 +31,15 @@ export const Button = StyleSheet.create({
     position: 'absolute',
   }
 })
+
+export const NoteStyle = StyleSheet.create({
+  note: {
+    fontFamily: 'RobotoCondensed_700Bold',
+    fontSize: 280,
+
+    flex: 3,
+
+    color: '#F1AB86',
+  }
+
+})
