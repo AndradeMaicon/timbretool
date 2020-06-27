@@ -24,12 +24,21 @@ export const Button = StyleSheet.create({
     alignItems: "center",
   },
 
+  selectedbt: {
+    borderColor: '#F0FFCE',
+    borderWidth: 3
+  },
+
   notes : {
     fontFamily: 'RobotoCondensed_400Regular',
     color: '#251605',
     fontSize: 25,
     position: 'absolute',
-  }
+  },
+
+  selectednt: {
+    color: '#F0FFCE'
+  },
 })
 
 export const NoteStyle = StyleSheet.create({
